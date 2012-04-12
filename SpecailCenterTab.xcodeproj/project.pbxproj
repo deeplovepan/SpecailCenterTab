@@ -20,6 +20,7 @@
 		A6E8DF951536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8DF941536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.m */; };
 		A6E8DF971536CB2C00CD1FE0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8DF961536CB2C00CD1FE0 /* second.png */; };
 		A6E8DF991536CB2C00CD1FE0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8DF981536CB2C00CD1FE0 /* second@2x.png */; };
+		A6E8DFA11536D42100CD1FE0 /* SpecailCenterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +28,23 @@
 		A6E8DF771536CB2B00CD1FE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6E8DF791536CB2B00CD1FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6E8DF7B1536CB2B00CD1FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6E8DF7F1536CB2B00CD1FE0 /* SpecailCenterTab-Info.plist */ = {isa = PBXFileReference; path = "SpecailCenterTab-Info.plist"; sourceTree = "<group>"; };
+		A6E8DF7F1536CB2B00CD1FE0 /* SpecailCenterTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpecailCenterTab-Info.plist"; sourceTree = "<group>"; };
 		A6E8DF811536CB2B00CD1FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6E8DF831536CB2B00CD1FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6E8DF851536CB2B00CD1FE0 /* SpecailCenterTab-Prefix.pch */ = {isa = PBXFileReference; path = "SpecailCenterTab-Prefix.pch"; sourceTree = "<group>"; };
-		A6E8DF861536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.h */ = {isa = PBXFileReference; path = SpecailCenterTabAppDelegate.h; sourceTree = "<group>"; };
+		A6E8DF851536CB2B00CD1FE0 /* SpecailCenterTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpecailCenterTab-Prefix.pch"; sourceTree = "<group>"; };
+		A6E8DF861536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecailCenterTabAppDelegate.h; sourceTree = "<group>"; };
 		A6E8DF871536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecailCenterTabAppDelegate.m; sourceTree = "<group>"; };
 		A6E8DF8A1536CB2B00CD1FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A6E8DF8C1536CB2B00CD1FE0 /* SpecailCenterTabFirstViewController.h */ = {isa = PBXFileReference; path = SpecailCenterTabFirstViewController.h; sourceTree = "<group>"; };
+		A6E8DF8C1536CB2B00CD1FE0 /* SpecailCenterTabFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecailCenterTabFirstViewController.h; sourceTree = "<group>"; };
 		A6E8DF8D1536CB2B00CD1FE0 /* SpecailCenterTabFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecailCenterTabFirstViewController.m; sourceTree = "<group>"; };
 		A6E8DF8F1536CB2C00CD1FE0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		A6E8DF911536CB2C00CD1FE0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		A6E8DF931536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.h */ = {isa = PBXFileReference; path = SpecailCenterTabSecondViewController.h; sourceTree = "<group>"; };
+		A6E8DF931536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecailCenterTabSecondViewController.h; sourceTree = "<group>"; };
 		A6E8DF941536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecailCenterTabSecondViewController.m; sourceTree = "<group>"; };
 		A6E8DF961536CB2C00CD1FE0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		A6E8DF981536CB2C00CD1FE0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A6E8DF9F1536D42100CD1FE0 /* SpecailCenterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecailCenterTabBarController.h; sourceTree = "<group>"; };
+		A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecailCenterTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		A6E8DF7D1536CB2B00CD1FE0 /* SpecailCenterTab */ = {
 			isa = PBXGroup;
 			children = (
+				A6E8DF9F1536D42100CD1FE0 /* SpecailCenterTabBarController.h */,
+				A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */,
 				A6E8DF861536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.h */,
 				A6E8DF871536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.m */,
 				A6E8DF891536CB2B00CD1FE0 /* MainStoryboard.storyboard */,
@@ -186,6 +191,7 @@
 				A6E8DF881536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.m in Sources */,
 				A6E8DF8E1536CB2B00CD1FE0 /* SpecailCenterTabFirstViewController.m in Sources */,
 				A6E8DF951536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.m in Sources */,
+				A6E8DFA11536D42100CD1FE0 /* SpecailCenterTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpecailCenterTab/SpecailCenterTab-Prefix.pch";
 				INFOPLIST_FILE = "SpecailCenterTab/SpecailCenterTab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpecailCenterTab/SpecailCenterTab-Prefix.pch";
 				INFOPLIST_FILE = "SpecailCenterTab/SpecailCenterTab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
