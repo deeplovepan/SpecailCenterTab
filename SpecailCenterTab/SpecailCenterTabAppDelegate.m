@@ -8,6 +8,7 @@
 
 #import "SpecailCenterTabAppDelegate.h"
 
+
 @implementation SpecailCenterTabAppDelegate
 
 @synthesize window = _window;
@@ -16,8 +17,17 @@
 {
     // Override point for customization after application launch.
     
+    //[[UITabBar appearance] setTintColor:[UIColor blueColor]];
     
+    
+    //[[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"bar.png"]];
+    
+    UITabBarController *tabBarController = (UITabBarController*)self.window.rootViewController;
 
+    //tabBar.backgroundImage = [UIImage imageNamed:@"bar.png"];
+    //tabBarController.tabBar.selectedImageTintColor = [UIColor orangeColor];
+    
+     
     return YES;
 }
 							

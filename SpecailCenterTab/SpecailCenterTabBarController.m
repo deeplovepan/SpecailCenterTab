@@ -14,6 +14,11 @@
 
 @implementation SpecailCenterTabBarController
 
+-(void)tabButtonPressed:(UIButton*)sender
+{
+    self.selectedIndex = sender.tag;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,11 +33,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    // 320/5 = 64
-    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(128, 0, 64, 49)];
-    testView.backgroundColor = [UIColor yellowColor];
-    [self.tabBar addSubview:testView];
     
+    // 320/5 = 64
+    /*
+    UIButton *testButton = [[UIButton alloc] initWithFrame:CGRectMake(128, -30
+                                                                , 64, 79)];
+    testButton.backgroundColor = [UIColor yellowColor];
+    [self.tabBar addSubview:testButton];
+    testButton.tag = 2;
+    [testButton addTarget:self action:@selector(tabButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    */
 }
 
 - (void)viewDidUnload

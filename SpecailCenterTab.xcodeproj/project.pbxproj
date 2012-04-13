@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A658E7F51538329400755DE5 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = A658E7F41538329400755DE5 /* setting.png */; };
+		A6D9D2EA1537E3A9003F6AD0 /* ArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D9D2E91537E3A9003F6AD0 /* ArtViewController.m */; };
+		A6D9D2ED1537E42E003F6AD0 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D9D2EC1537E42E003F6AD0 /* pic1.png */; };
+		A6D9D2EF1537E566003F6AD0 /* pic2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D9D2EE1537E566003F6AD0 /* pic2.png */; };
 		A6E8DF781536CB2B00CD1FE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8DF771536CB2B00CD1FE0 /* UIKit.framework */; };
 		A6E8DF7A1536CB2B00CD1FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8DF791536CB2B00CD1FE0 /* Foundation.framework */; };
 		A6E8DF7C1536CB2B00CD1FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8DF7B1536CB2B00CD1FE0 /* CoreGraphics.framework */; };
@@ -21,9 +25,17 @@
 		A6E8DF971536CB2C00CD1FE0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8DF961536CB2C00CD1FE0 /* second.png */; };
 		A6E8DF991536CB2C00CD1FE0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8DF981536CB2C00CD1FE0 /* second@2x.png */; };
 		A6E8DFA11536D42100CD1FE0 /* SpecailCenterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */; };
+		A6E8DFA31537CD5E00CD1FE0 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8DFA21537CD5E00CD1FE0 /* bar.png */; };
+		A6F167EC1538300F00DD2AB9 /* compi.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F167EB1538300F00DD2AB9 /* compi.png */; };
+		A6F167EF1538303A00DD2AB9 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F167EE1538303A00DD2AB9 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A658E7F41538329400755DE5 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		A6D9D2E81537E3A9003F6AD0 /* ArtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtViewController.h; sourceTree = "<group>"; };
+		A6D9D2E91537E3A9003F6AD0 /* ArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtViewController.m; sourceTree = "<group>"; };
+		A6D9D2EC1537E42E003F6AD0 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		A6D9D2EE1537E566003F6AD0 /* pic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic2.png; sourceTree = "<group>"; };
 		A6E8DF731536CB2B00CD1FE0 /* SpecailCenterTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecailCenterTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8DF771536CB2B00CD1FE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6E8DF791536CB2B00CD1FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +57,9 @@
 		A6E8DF981536CB2C00CD1FE0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		A6E8DF9F1536D42100CD1FE0 /* SpecailCenterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecailCenterTabBarController.h; sourceTree = "<group>"; };
 		A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecailCenterTabBarController.m; sourceTree = "<group>"; };
+		A6E8DFA21537CD5E00CD1FE0 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		A6F167EB1538300F00DD2AB9 /* compi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compi.png; sourceTree = "<group>"; };
+		A6F167EE1538303A00DD2AB9 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +106,8 @@
 		A6E8DF7D1536CB2B00CD1FE0 /* SpecailCenterTab */ = {
 			isa = PBXGroup;
 			children = (
+				A6D9D2E81537E3A9003F6AD0 /* ArtViewController.h */,
+				A6D9D2E91537E3A9003F6AD0 /* ArtViewController.m */,
 				A6E8DF9F1536D42100CD1FE0 /* SpecailCenterTabBarController.h */,
 				A6E8DFA01536D42100CD1FE0 /* SpecailCenterTabBarController.m */,
 				A6E8DF861536CB2B00CD1FE0 /* SpecailCenterTabAppDelegate.h */,
@@ -112,6 +129,12 @@
 		A6E8DF7E1536CB2B00CD1FE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A658E7F41538329400755DE5 /* setting.png */,
+				A6F167EE1538303A00DD2AB9 /* test.png */,
+				A6F167EB1538300F00DD2AB9 /* compi.png */,
+				A6D9D2EE1537E566003F6AD0 /* pic2.png */,
+				A6D9D2EC1537E42E003F6AD0 /* pic1.png */,
+				A6E8DFA21537CD5E00CD1FE0 /* bar.png */,
 				A6E8DF7F1536CB2B00CD1FE0 /* SpecailCenterTab-Info.plist */,
 				A6E8DF801536CB2B00CD1FE0 /* InfoPlist.strings */,
 				A6E8DF831536CB2B00CD1FE0 /* main.m */,
@@ -177,6 +200,12 @@
 				A6E8DF921536CB2C00CD1FE0 /* first@2x.png in Resources */,
 				A6E8DF971536CB2C00CD1FE0 /* second.png in Resources */,
 				A6E8DF991536CB2C00CD1FE0 /* second@2x.png in Resources */,
+				A6E8DFA31537CD5E00CD1FE0 /* bar.png in Resources */,
+				A6D9D2ED1537E42E003F6AD0 /* pic1.png in Resources */,
+				A6D9D2EF1537E566003F6AD0 /* pic2.png in Resources */,
+				A6F167EC1538300F00DD2AB9 /* compi.png in Resources */,
+				A6F167EF1538303A00DD2AB9 /* test.png in Resources */,
+				A658E7F51538329400755DE5 /* setting.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +221,7 @@
 				A6E8DF8E1536CB2B00CD1FE0 /* SpecailCenterTabFirstViewController.m in Sources */,
 				A6E8DF951536CB2C00CD1FE0 /* SpecailCenterTabSecondViewController.m in Sources */,
 				A6E8DFA11536D42100CD1FE0 /* SpecailCenterTabBarController.m in Sources */,
+				A6D9D2EA1537E3A9003F6AD0 /* ArtViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +335,7 @@
 				A6E8DF9E1536CB2C00CD1FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
